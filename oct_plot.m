@@ -36,4 +36,4 @@ s32_1=rotdim(s32,-1);
 s33_1=rotdim(s33,-1);
 s34_1=rotdim(s34,-1);
 t2=horzcat(s11_1,s12_1,s13_1,s14_1,s21_1,s22_1,s23_1,s24_1,s31_1,s32_1,s33_1,s34_1);
-#save ("output2.dat","t2");
+save ("output2.dat","t2");
