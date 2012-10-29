@@ -11,7 +11,6 @@ set style data histogram
 set style histogram rowstacked
 set style fill solid border -1
 set boxwidth 0.75
-set datafile separator ","
 set xrange[-0.50:50.50]
 set yrange[0:250]
-plot for [COL=2:13] 'zzzz2.dat' using COL
+plot for [COL=1:12] 'output2.dat' using COL
